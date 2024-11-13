@@ -14,5 +14,5 @@ RUN pip install --no-cache-dir dnslib
 EXPOSE 53/udp
 
 
-# Run python-dns.py when the container launches
+# Run merge-dns-server.py when the container launches
 CMD ["python", "merge-dns-server.py"]
